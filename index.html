@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Startup</title>
+    <!-- Required meta tags
+    Mika: this makes the page responsive...it's mobile first.  -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+    <!-- Note that the below Bootstrap file is a specific version. If you grab the most
+    current from Bootstrap website, you will see the button grow transition being a lot faster
+    than in my video.  Use whichever style sheet you like best! -->
+    <!-- Bootstrap CSS from a CDN. This way you don't have to include the bootstrap file yourself -->
+
+    <!--Mika: Copy the bootstrap link bootstrap website. the version won't be 5.2.1 anymore. and therefore some code might not work. 
+    
+    -->
+    
+<!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">    <!-- My own stylesheet -->
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+    <!--below we created different divs. you can open crome developer tools to see the areas. Divs are basically areas on the website.
+    without the col-12 the things are not centered...bootstrap uses 12 columns so you're saying to the site to use the full width
+
+    d-flex was added later. this will help to vertically align the text. This is related to flex box. the d-flex activates the flexbox. Remeber the froggy.
+
+  -->
+    <div class="container d-flex align-items-center h-100">
+      <div class="row">
+        <header class="text-center col-12">
+        <H1 class="text-uppercase"><strong>The biggest startup event of the year</strong></H1>
+        </header>
+        <div class="buffer col-12"> <!--we are writing this buffer class on our own on the CSS-->
+
+        </div>
+        <section class="text-center col-12">
+          <hr>
+          <a href="https://mailchi.mp/29f48e4a690e/mikas-test-site">
+            <button class="btn btn-primary btn-xl">Find out more</button>
+          <!--the button class above is from bootstrap webpage btn btn-primary the btn-xl is self defined-->
+        </a>
+        </section>
+
+      </div>
+    </div>
+  </body>
+</html>
